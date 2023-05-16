@@ -29,13 +29,4 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="78dp"
-        android:layout_height="72dp"
-        android:text="안녕"
-        android:textSize="24sp"
-        tools:layout_editor_absoluteX="173dp"
-        tools:layout_editor_absoluteY="294dp" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
