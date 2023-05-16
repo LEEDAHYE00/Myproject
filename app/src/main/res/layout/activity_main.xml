@@ -29,10 +29,11 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="392dp"
-        android:layout_height="824dp"
+        android:layout_width="399dp"
+        android:layout_height="897dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/KakaoTalk_20230516_154617632"
-        tools:layout_editor_absoluteX="3dp"
         tools:layout_editor_absoluteY="-3dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
