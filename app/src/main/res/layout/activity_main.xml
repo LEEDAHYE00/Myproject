@@ -35,6 +35,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="터치"
+        android:textColor="#F3F0F0"
         android:textColorHighlight="#FAB635"
         android:textColorLink="#FAB635"
         android:textSize="14sp"
