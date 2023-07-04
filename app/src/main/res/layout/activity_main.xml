@@ -34,6 +34,7 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="moveButton"
         android:text="터치"
         android:textColor="#F3F0F0"
         android:textColorHighlight="#FAB635"
