@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         moveButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                // 다음 페이지로 이동하는 코드
+                // 다음 페이지로 이동하는 코드 (클릭버튼 -> 로그인 화면)
                 Intent intent = new Intent(getApplicationContext(), MainActivityLogin.class);
                 startActivity(intent);
             }
