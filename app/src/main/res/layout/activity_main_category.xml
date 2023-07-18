@@ -67,7 +67,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.285" />
 
     <TextView
         android:id="@+id/textView3"
@@ -86,31 +87,40 @@
         android:id="@+id/imageButton4"
         android:layout_width="121dp"
         android:layout_height="103dp"
+        android:layout_marginBottom="12dp"
         android:background="@null"
         android:scaleType="centerInside"
-        app:srcCompat="@drawable/home"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="843dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton5"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button5"
+        app:layout_constraintVertical_bias="0.568"
+        app:srcCompat="@drawable/home" />
 
     <ImageButton
         android:id="@+id/imageButton5"
         android:layout_width="97dp"
         android:layout_height="101dp"
+        android:layout_marginBottom="12dp"
         android:background="@null"
         android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button5"
         app:srcCompat="@drawable/board"
-        tools:layout_editor_absoluteX="120dp"
-        tools:layout_editor_absoluteY="843dp" />
+        tools:layout_editor_absoluteX="120dp" />
 
     <ImageButton
         android:id="@+id/imageButton6"
         android:layout_width="79dp"
         android:layout_height="80dp"
+        android:layout_marginBottom="12dp"
         android:background="@null"
         android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button5"
         app:srcCompat="@drawable/chatting"
-        tools:layout_editor_absoluteX="231dp"
-        tools:layout_editor_absoluteY="849dp" />
+        tools:layout_editor_absoluteX="231dp" />
 
     <ImageButton
         android:id="@+id/imageButton8"
@@ -118,8 +128,10 @@
         android:layout_height="87dp"
         android:background="@null"
         android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button5"
+        app:layout_constraintVertical_bias="0.383"
         app:srcCompat="@drawable/profile"
-        tools:layout_editor_absoluteX="344dp"
-        tools:layout_editor_absoluteY="841dp" />
+        tools:layout_editor_absoluteX="322dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
