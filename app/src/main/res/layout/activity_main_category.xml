@@ -11,6 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="메인 화면"
+        android:textSize="48sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -21,7 +22,8 @@
         android:id="@+id/button6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="대화"
+        android:text="    대화    "
+        android:textSize="48sp"
         app:layout_constraintBottom_toTopOf="@+id/button4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -32,7 +34,8 @@
         android:id="@+id/button5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="해시태그"
+        android:text="해시태그 "
+        android:textSize="48sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/button4"
         app:layout_constraintHorizontal_bias="0.0"
@@ -45,9 +48,78 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="내 프로필"
+        android:textSize="48sp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button3"
-        app:layout_constraintVertical_bias="0.343"
-        tools:layout_editor_absoluteX="154dp" />
+        app:layout_constraintVertical_bias="0.343" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="300dp"
+        android:layout_marginBottom="800dp"
+        android:text="뒤로"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="117dp"
+        android:layout_marginBottom="56dp"
+        android:text="카테고리"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="121dp"
+        android:layout_height="103dp"
+        android:background="@null"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/home"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="843dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="97dp"
+        android:layout_height="101dp"
+        android:background="@null"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/board"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="843dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="79dp"
+        android:layout_height="80dp"
+        android:background="@null"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/chatting"
+        tools:layout_editor_absoluteX="231dp"
+        tools:layout_editor_absoluteY="849dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="95dp"
+        android:layout_height="87dp"
+        android:background="@null"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/profile"
+        tools:layout_editor_absoluteX="344dp"
+        tools:layout_editor_absoluteY="841dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
