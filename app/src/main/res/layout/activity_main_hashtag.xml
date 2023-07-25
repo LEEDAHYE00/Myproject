@@ -27,10 +27,10 @@
         tools:layout_editor_absoluteY="11dp" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/hashtag1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="# 거동이 불편한"
+        android:text="#거동이_불편한"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="100dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
