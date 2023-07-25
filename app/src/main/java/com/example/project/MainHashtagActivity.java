@@ -48,5 +48,7 @@ public class MainHashtagActivity extends AppCompatActivity {
 
         return spannable;
     }
+    TextView textView = findViewById(R.id.hashtag1);
+
 }
 
