@@ -13,6 +13,12 @@
         android:theme="@style/Theme.Project"
         tools:targetApi="31">
         <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Listactivity1"
+            android:exported="false" />
+        <activity
             android:name=".MainBoardActivity"
             android:exported="false" />
         <activity
