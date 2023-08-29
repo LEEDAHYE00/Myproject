@@ -7,7 +7,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import java.util.ArrayList;
 import java.util.List;
-
+import com.example.project.Post;
 public class HomeActivity extends AppCompatActivity implements SearchView.OnQueryTextListener {
 
     private List<Post> postList = new ArrayList<>();
@@ -19,7 +19,7 @@ public class HomeActivity extends AppCompatActivity implements SearchView.OnQuer
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_home);
 
         recyclerView = findViewById(R.id.recyclerView);
         postAdapter = new PostAdapter(postList);

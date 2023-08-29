@@ -1,3 +1,5 @@
+package com.example.project;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.RecyclerView; // 이 부분을 추가하세요
 import android.os.Bundle;
@@ -16,9 +18,10 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.PostViewHolder
     @NonNull
     @Override
     public PostViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_post, parent, false);
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.activity_home_item, parent, false);
         return new PostViewHolder(view);
     }
+
 
     @Override
     public void onBindViewHolder(@NonNull PostViewHolder holder, int position) {

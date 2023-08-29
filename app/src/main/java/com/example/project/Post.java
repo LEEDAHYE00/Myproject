@@ -1,3 +1,5 @@
+package com.example.project;
+
 public class Post {
     private int imageResource;
     private String title;
