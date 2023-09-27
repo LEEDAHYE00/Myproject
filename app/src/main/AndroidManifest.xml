@@ -13,6 +13,12 @@
         android:theme="@style/Theme.Project"
         tools:targetApi="31">
         <activity
+            android:name=".activity_mainjoin"
+            android:exported="false" />
+        <activity
+            android:name=".activity_login"
+            android:exported="false" />
+        <activity
             android:name=".ChatData"
             android:exported="false" />
         <activity
